@@ -1,14 +1,20 @@
-Ex.No:5 Create Your Own Content Providers to get Contacts details.
-AIM:
+
+# Ex.No:5 Create Your Own Content Providers to get Contacts details.
+
+
+## AIM:
+
 To create your own content providers to get contacTs details using Android Studio.
 
-EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
+
 Android Studio(Latest Version)
 
-ALGORITHM:
+## ALGORITHM:
+
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
-Step 2: Then type the Application name as “contentprovider″ and click Next.
+Step 2: Then type the Application name as “contentprovider″ and click Next. 
 
 Step 3: Then select the Minimum SDK as shown below and click Next.
 
@@ -20,14 +26,17 @@ Step 6: Get contacts details and Display details give in MainActivity file.
 
 Step 7: Save and run the application.
 
-PROGRAM:
+## PROGRAM:
+```
 /*
 Program to print the text create your own content providers to get contacts details.
 Developed by: Mathavan S
 Registeration Number : 212221220031
 */
+```
 AndroidManifest.xml:
 
+```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
@@ -54,8 +63,11 @@ AndroidManifest.xml:
     </application>
 
 </manifest>
+```
+
 activity_main.xml:
 
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -75,8 +87,10 @@ activity_main.xml:
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 MainActvity.java:
 
+```
 package com.example.contentprovider;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -134,16 +148,20 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-OUTPUT
-image
+```
+## OUTPUT
 
-image
+![image](https://github.com/kannan0071/MAD-Ex.No-5/assets/119641638/11a53807-3225-4d7b-a5ca-6c611e750438)
 
-Screenshot 2023-05-27 141008
+![image](https://github.com/kannan0071/MAD-Ex.No-5/assets/119641638/ba23156d-0d19-4be6-a635-7d5528ccac19)
 
-WhatsApp Image 2023-05-27 at 13 58 20
+![Screenshot 2023-05-27 141008](https://github.com/kannan0071/MAD-Ex.No-5/assets/119641638/800ce4d6-2d7d-410a-9da9-25058503215d)
 
-WhatsApp Image 2023-05-27 at 14 04 22
+![WhatsApp Image 2023-05-27 at 13 58 20](https://github.com/kannan0071/MAD-Ex.No-5/assets/119641638/53fb45ef-ba56-46d2-b24d-4cb5e4c33b96)
 
-RESULT
+![WhatsApp Image 2023-05-27 at 14 04 22](https://github.com/kannan0071/MAD-Ex.No-5/assets/119641638/bf41b93f-dd9c-4997-9df8-424008c6dcfb)
+
+
+
+## RESULT
 Thus a Simple Android Application create your own content providers to get contacts details using Android Studio is developed and executed successfully.
